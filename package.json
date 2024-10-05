@@ -1,0 +1,27 @@
+{
+  "name": "xml64",
+  "description": "A utility for converting between Base64 encoded strings and XML.",
+  "version": "0.1.0",
+  "main": "dist/cjs/index.js",      
+  "module": "dist/mjs/index.js",   
+  "types": "types/index.d.ts",       
+  "scripts": {
+    "build:cjs": "tsc --outDir dist/cjs --module CommonJS",  
+    "build:esm": "tsc --outDir dist/mjs --module ESNext",    
+    "build": "npm run build:cjs && npm run build:esm",       
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xml",
+    "base64",
+    "converter",
+    "encoding",
+    "decoding"
+  ],
+  "author": {
+    "name": "Behzad Bakhshayesh",
+    "email": "behzadbakhshayesh123456@gmail.com"
+  },
+  "license": "MIT"
+
+}
