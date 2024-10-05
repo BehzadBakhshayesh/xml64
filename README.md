@@ -56,23 +56,6 @@ const base64Encoded = xmlToBase64(xml);
 console.log(base64Encoded); // Outputs: "PHhscD5zdHJpbmc8L3hscD4="
 ```
 
-## API
-
-### `base64ToXml(base64: string): string`
-
-Converts a Base64 encoded string into an XML string.
-
-- **Parameters:**
-  - `base64`: The Base64 encoded string that represents XML data.
-- **Returns:** The decoded XML string.
-
-#### Example:
-
-```js
-const xmlString = base64ToXml("PHhscD5zdHJpbmc8L3hscD4=");
-// Returns: "<xml>string</xml>"
-```
-
 ## Author
 
 - [Behzad Bakhshayesh](https://github.com/behzadbakhshayesh)

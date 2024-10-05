@@ -1,7 +1,7 @@
 {
   "name": "xml64",
   "description": "A utility for converting between Base64 encoded strings and XML.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "dist/cjs/index.js",      
   "module": "dist/mjs/index.js",   
   "types": "types/index.d.ts",       
